@@ -1,8 +1,8 @@
-package com.microbeatlas.service;
+package com.microbeatlas.samplesservice.service;
 
-import com.microbeatlas.dto.TaxonDto;
-import com.microbeatlas.model.Sample;
-import com.microbeatlas.repository.SamplesRepository;
+import com.microbeatlas.samplesservice.dto.TaxonDto;
+import com.microbeatlas.samplesservice.model.Sample;
+import com.microbeatlas.samplesservice.repository.SamplesRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

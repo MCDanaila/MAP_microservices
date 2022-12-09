@@ -1,4 +1,4 @@
-package com.microbeatlas.dto;
+package com.microbeatlas.taxaservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

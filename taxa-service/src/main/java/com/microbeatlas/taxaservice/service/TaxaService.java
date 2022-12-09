@@ -1,8 +1,8 @@
-package com.microbeatlas.service;
+package com.microbeatlas.taxaservice.service;
 
-import com.microbeatlas.dto.TaxonDto;
-import com.microbeatlas.model.Taxa;
-import com.microbeatlas.repository.TaxaRepository;
+import com.microbeatlas.taxaservice.dto.TaxonDto;
+import com.microbeatlas.taxaservice.model.Taxa;
+import com.microbeatlas.taxaservice.repository.TaxaRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

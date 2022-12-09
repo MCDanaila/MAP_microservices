@@ -1,4 +1,4 @@
-package com.microbeatlas.config;
+package com.microbeatlas.samplesservice.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

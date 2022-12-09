@@ -1,8 +1,8 @@
-package com.microbeatlas.controller;
+package com.microbeatlas.samplesservice.controller;
 
-import com.microbeatlas.dto.TaxonDto;
-import com.microbeatlas.model.Sample;
-import com.microbeatlas.service.SamplesService;
+import com.microbeatlas.samplesservice.dto.TaxonDto;
+import com.microbeatlas.samplesservice.model.Sample;
+import com.microbeatlas.samplesservice.service.SamplesService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

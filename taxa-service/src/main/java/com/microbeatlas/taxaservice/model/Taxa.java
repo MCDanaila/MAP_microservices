@@ -1,4 +1,4 @@
-package com.microbeatlas.model;
+package com.microbeatlas.taxaservice.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

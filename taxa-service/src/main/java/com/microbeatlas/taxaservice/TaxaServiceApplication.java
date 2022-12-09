@@ -1,4 +1,4 @@
-package com.microbeatlas;
+package com.microbeatlas.taxaservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class SamplesServiceApplication {
+public class TaxaServiceApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(SamplesServiceApplication.class, args);
+		SpringApplication.run(TaxaServiceApplication.class, args);
 	}
-
 }

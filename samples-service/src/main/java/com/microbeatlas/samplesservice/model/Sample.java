@@ -1,4 +1,4 @@
-package com.microbeatlas.model;
+package com.microbeatlas.samplesservice.model;
 
 
 import lombok.*;

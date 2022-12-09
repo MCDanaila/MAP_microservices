@@ -5,22 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b005405a-f8ad-40d9-b9b0-1cee3e08e89a" name="Changes" comment="taxa and samples service updates for communication between services">
-      <change afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/dto/TaxonDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/dto/TaxonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microbeatlas/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/SamplesServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/SamplesServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/controller/SamplesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/controller/SamplesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/model/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/model/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/service/SamplesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/service/SamplesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxa-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/TaxaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/TaxaServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/controller/TaxaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/controller/TaxaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/model/Taxa.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/model/Taxa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/service/TaxaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/service/TaxaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/SamplesServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/samplesservice/SamplesServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/samplesservice/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/controller/SamplesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/samplesservice/controller/SamplesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/dto/TaxonDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/taxaservice/dto/TaxonDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/model/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/samplesservice/model/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/repository/SamplesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/samplesservice/repository/SamplesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/service/SamplesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/samplesservice/service/SamplesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/TaxaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/taxaservice/TaxaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/controller/TaxaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/taxaservice/controller/TaxaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/dto/TaxonDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/samplesservice/dto/TaxonDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/model/Taxa.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/taxaservice/model/Taxa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/repository/TaxaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/taxaservice/repository/TaxaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/service/TaxaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/taxaservice/service/TaxaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "temurin-1.8",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
     "last_opened_file_path": "/Users/mihaid/Coding-Projects/MAP_microservices/taxa-service/src/main/java/com/microbeatlas",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -89,6 +94,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.samplesService">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microbeatlas.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="discoveryServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
@@ -104,7 +116,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="samples-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microbeatlas.SamplesServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microbeatlas.samplesservice.SamplesServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,12 +126,13 @@
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="taxa-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microbeatlas.TaxaServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microbeatlas.taxaservice.TaxaServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.taxaService" />
       <item itemvalue="Spring Boot.discoveryServer" />
       <item itemvalue="Spring Boot.samplesService" />
@@ -140,7 +153,7 @@
       <workItem from="1670423193392" duration="3213000" />
       <workItem from="1670488691452" duration="2628000" />
       <workItem from="1670505600231" duration="8844000" />
-      <workItem from="1670572375287" duration="3609000" />
+      <workItem from="1670572375287" duration="10314000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1668761758599</created>
@@ -177,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670590434229</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="taxa and samples service updates for communication between services">
+      <created>1670590828775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670590828775</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
