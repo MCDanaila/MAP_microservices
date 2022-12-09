@@ -1,5 +1,6 @@
 package com.microbeatlas.controller;
 
+import com.microbeatlas.dto.TaxonDto;
 import com.microbeatlas.model.Taxa;
 import com.microbeatlas.service.TaxaService;
 import lombok.RequiredArgsConstructor;
@@ -9,8 +10,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
-
 
 @RestController
 @RequestMapping("/api/taxa")
@@ -32,7 +31,8 @@ public class TaxaController {
 	}
 
 	@GetMapping("/{tid}")
-	public Optional<Taxa> getTaxon(@PathVariable(name = "tid") String sid){
+	public TaxonDto getTaxon(@PathVariable(name = "tid") String sid){
 		return taxaService.findById(sid);
 	}
+
 }

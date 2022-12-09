@@ -4,21 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b005405a-f8ad-40d9-b9b0-1cee3e08e89a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples-service/src/main/java/vonmering/microbeatlas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taxa-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taxa-service/src/main/java/vonmering/microbeatlas/Main.java" afterDir="false" />
+    <list default="true" id="b005405a-f8ad-40d9-b9b0-1cee3e08e89a" name="Changes" comment="taxa and samples service updates for communication between services">
+      <change afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/dto/TaxonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/dto/TaxonDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/SamplesServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/SamplesServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/controller/SamplesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/controller/SamplesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/model/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/model/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/service/SamplesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/java/com/microbeatlas/service/SamplesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/samples-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/TaxaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/TaxaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/controller/TaxaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/controller/TaxaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/model/Taxa.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/model/Taxa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/service/TaxaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas/service/TaxaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxa-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taxa-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,12 +48,83 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "adopt-openjdk-11"
+    "jdk.selected.JAVA_MODULE": "temurin-1.8",
+    "last_opened_file_path": "/Users/mihaid/Coding-Projects/MAP_microservices/taxa-service/src/main/java/com/microbeatlas",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "29341a28ecc9931433b2f68ccc1fdf41"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Properties"
+    ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/taxa-service/src/main/java/com/microbeatlas" />
+      <recent name="$PROJECT_DIR$/taxa-service/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microbeatlas.dto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.samplesService">
+    <configuration name="discoveryServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microbeatlas.discoveryserver.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="samplesService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="samples-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microbeatlas.SamplesServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="taxaService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="taxa-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microbeatlas.TaxaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.taxaService" />
+      <item itemvalue="Spring Boot.discoveryServer" />
+      <item itemvalue="Spring Boot.samplesService" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,8 +133,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668761298147</updated>
-      <workItem from="1668761300884" duration="249000" />
+      <workItem from="1668761300884" duration="521000" />
+      <workItem from="1670333030599" duration="4402000" />
+      <workItem from="1670400237378" duration="2739000" />
+      <workItem from="1670415682431" duration="1242000" />
+      <workItem from="1670423193392" duration="3213000" />
+      <workItem from="1670488691452" duration="2628000" />
+      <workItem from="1670505600231" duration="8844000" />
+      <workItem from="1670572375287" duration="3609000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1668761758599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668761758599</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pom and proprerties files">
+      <created>1670514240047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670514240047</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sample service initial setup">
+      <created>1670514369694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670514369694</updated>
+    </task>
+    <task id="LOCAL-00004" summary="taxa service initial setup">
+      <created>1670514418103</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670514418103</updated>
+    </task>
+    <task id="LOCAL-00005" summary="discovery server implementation">
+      <created>1670590434229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670590434229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,5 +193,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="pom and proprerties files" />
+    <MESSAGE value="sample service initial setup" />
+    <MESSAGE value="taxa service initial setup" />
+    <MESSAGE value="discovery server implementation" />
+    <MESSAGE value="taxa and samples service updates for communication between services" />
+    <option name="LAST_COMMIT_MESSAGE" value="taxa and samples service updates for communication between services" />
   </component>
 </project>

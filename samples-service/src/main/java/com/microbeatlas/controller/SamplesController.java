@@ -1,5 +1,6 @@
 package com.microbeatlas.controller;
 
+import com.microbeatlas.dto.TaxonDto;
 import com.microbeatlas.model.Sample;
 import com.microbeatlas.service.SamplesService;
 import lombok.RequiredArgsConstructor;
@@ -34,5 +35,10 @@ public class SamplesController {
 	@GetMapping("/{sid}")
 	public Optional<Sample> getSample(@PathVariable(name = "sid") String sid){
 		return samplesService.findById(sid);
+	}
+
+	@GetMapping("/taxa/{tid}")
+	public TaxonDto getTaxon(@PathVariable(name = "tid") String tid){
+		return samplesService.getTaxon(tid);
 	}
 }
